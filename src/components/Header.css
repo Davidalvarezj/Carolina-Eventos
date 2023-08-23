@@ -1,0 +1,60 @@
+
+.header-img {
+    position: relative;
+    padding-top: 200px ;
+    padding-bottom: 200px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../img/Header1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 4px #000000;
+    /* box-shadow: -0px -100px 100px  10px rgba(0, 0, 0, 0.5) inset; */
+    box-shadow: 0px 0px 200px 200px rgba(0, 0, 0, 0.4);  
+}
+
+.logo-img{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 160px;
+   
+}
+
+.title{
+    font-family: 'Italianno', cursive;
+    font-size: 80px;
+    line-height: 80%;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    text-align: start;
+}
+
+.title-p {
+    text-align: start; 
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.title-button{
+    margin-top: 40px;
+    text-align: start;
+
+}
+
+.title-button button{
+    color: antiquewhite !important;
+    border-color: antiquewhite !important;
+}
+
+
+
+.title-button button:hover {
+    color: #000000 !important;
+    border-color: antiquewhite !important;
+    background-color: antiquewhite !important;
+}

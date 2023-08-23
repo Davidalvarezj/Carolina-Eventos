@@ -1,13 +1,20 @@
-import logo from "./logo.svg";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello there !!!</p>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className="App">
+        <header className="App-header">
+          <p>Hello there !!!</p>
+          <button className="btn btn-primary">Press me!</button>
+        </header>
+      </div>
+    </>
   );
 }
 
